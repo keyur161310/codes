@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+  margin: 0;
+}
+
+.image-container {
+  position: relative;
+  width: 800px;
+  height: auto;
+  overflow: hidden;
+}
+
+.image-container img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  transition: opacity 2s ease;
+  display: block;
+}
+
+.image-container .color {
+  opacity: 0;
+  z-index: 2;
+}
+
+.image-container:hover .color {
+  opacity: 1;
+}
