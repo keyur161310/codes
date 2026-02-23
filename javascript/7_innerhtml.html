@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        /* define class */
+        .highlight {
+            background-color: yellow;
+            color: red;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+        <h1>innerhtml & className, style property</h1>
+    <table border="2" align="center" width="80%">
+        <tr>
+            <td width="33.33%">
+                <button type="button" onclick="changeText();">set Text</button>
+            </td>
+            <td width="33.33%">
+                <button type="button" onclick="changeClass();">change className</button>
+            </td>
+            <td width="33.33%">
+                <button type="button" onclick="changeStyle();">change style</button>
+            </td>
+        </tr>
+        <tr>
+            <td id="one"></td>
+            <td id="two"></td>
+            <td id="thee"></td>
+        </tr>
+
+    </table>
+    <script>
+        function changeText()
+
+        {
+let music = `Sanam teri kasam<br/>
+Sanam teri kasam<br/>
+Tujhe dekhte hi aankhon ne<br/>
+Qasam li hai sanam<br/>`
+  document.getElementById('one').innerHTML = music ;
+        }
+         
+           
+   function changeClass(){
+ document.getElementById('one').className = "highlight";
+   }
+   function changeStyle(){
+   document.getElementById('one').style = "text-align:center;padding:10px;";
+   }
+//   function changeText()
+
+//         {
+// let music = `Sanam teri kasam<br/>
+// Sanam teri kasam<br/>
+// Tujhe dekhte hi aankhon ne<br/>
+// Qasam li hai sanam<br/>`
+//   document.getElementById('two').innerHTML = music ;
+//         }
+         
+           
+//    function changeClass(){
+//  document.getElementById('two').className = "highlight";
+//    }
+//    function changeStyle(){
+//    document.getElementById('two').style = "text-align:center;padding:10px;";
+//    }
+   </script>
+
+</body>
+</html>
