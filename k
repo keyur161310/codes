@@ -33,4 +33,29 @@ java
 
 
 
-   
+     <div className="col-lg-4">
+                    <div className="team-member">
+                        <img className="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                        <h4>Diana Petersen</h4>
+                        <p className="text-muted">Lead Marketer</p>
+                        <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i className="fab fa-twitter" /></a>
+                        <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i className="fab fa-facebook-f" /></a>
+                        <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i className="fab fa-linkedin-in" /></a>
+                    </div>
+                </div>
+                <div className="col-lg-4">
+                    <div className="team-member">
+                        <img className="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                        <h4>Larry Parker</h4>
+                        <p className="text-muted">Lead Developer</p>
+                        <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i className="fab fa-twitter" /></a>
+                        <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i className="fab fa-facebook-f" /></a>
+                        <a className="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i className="fab fa-linkedin-in" /></a>
+                    </div>
+                </div>
+
+
+
+
+                ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                
