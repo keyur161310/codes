@@ -59,3 +59,19 @@ java
 
                 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 
+
+
+                 <div className="row">
+    <div className="col-12">
+      <div className="border border-danger rounded-3 p-3 bg-white shadow-sm">
+        <div className="d-flex justify-content-between align-items-center flex-wrap gap-3">
+          <div className="fw-bold fs-5 text-danger">Bowler name</div>
+          <div className="d-flex gap-4 flex-wrap">
+            <span className="badge text-bg-info px-3 py-2">Total over: 0.0</span>
+            <span className="badge text-bg-secondary px-3 py-2">NRR: 0.00</span>
+            <span className="badge text-bg-danger px-3 py-2">Wickets=Runs(Balls): 0-00 (00)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
